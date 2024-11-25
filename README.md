@@ -38,7 +38,7 @@ To use the `ft_printf` function in your project:
 1. Include `ft_printf.h` in your source file.
 2. Compile `ft_printf.c` along with your project files. Example:
    ```bash
-   gcc main.c ft_printf.c libft.a -o ft_printf
+   cc main.c ft_printf.c libft.a -o ft_printf
    ```
 
 ### **Example**
@@ -65,7 +65,6 @@ Decimal: 42, Hex: 2a, Pointer: 0x<address>
 |-- ft_printf.c      # Main implementation of ft_printf.
 |-- ft_printf.h      # Header file containing function prototypes.
 |-- libft.a          # Your custom Libft library (required for certain utilities).
-|-- main.c           # Example main file for testing.
 |-- Makefile         # Automates compilation of the project.
 ```
 
